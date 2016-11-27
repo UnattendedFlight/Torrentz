@@ -63,18 +63,35 @@ namespace TorrentDownloader
 
                     } else
                     {
-                        Console.WriteLine("Enter number between 1 and " + (nm - 1));
-                        ConsoleKeyInfo choice = Console.ReadKey();
+                        if (nm-1 > 9)
+                        {
+                            Console.WriteLine("Enter number between 1 and " + (nm - 1));
+                            string choice = Console.ReadLine();
+                            try
+                            {
+                                ch = Convert.ToInt32(choice);
+                            } catch
+                            {
+                                Console.WriteLine("Not a number");
+                                goto Number;
+                            }
+                            
+                        } else
+                        {
+                            Console.WriteLine("Enter number between 1 and " + (nm - 1));
+                            ConsoleKeyInfo choice = Console.ReadKey();
 
-                        if (char.IsDigit(choice.KeyChar))
-                        {
-                            ch = int.Parse(choice.KeyChar.ToString());
+                            if (char.IsDigit(choice.KeyChar))
+                            {
+                                ch = int.Parse(choice.KeyChar.ToString());
+                            }
+                            else
+                            {
+                                Console.WriteLine("Not a number");
+                                goto Number;
+                            }
                         }
-                        else
-                        {
-                            Console.WriteLine("Not a number");
-                            goto Number;
-                        }
+
                     }
                     Console.WriteLine();
                     string torrentName = myList[ch];
