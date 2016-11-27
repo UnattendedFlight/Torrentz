@@ -1,0 +1,6 @@
+j:\documents\visual studio 2015\Projects\TorrentDownloader\TorrentDownloader\bin\Debug\TorrentDownloader.exe.config
+j:\documents\visual studio 2015\Projects\TorrentDownloader\TorrentDownloader\bin\Debug\TorrentDownloader.exe
+j:\documents\visual studio 2015\Projects\TorrentDownloader\TorrentDownloader\bin\Debug\TorrentDownloader.pdb
+j:\documents\visual studio 2015\Projects\TorrentDownloader\TorrentDownloader\obj\Debug\TorrentDownloader.csprojResolveAssemblyReference.cache
+j:\documents\visual studio 2015\Projects\TorrentDownloader\TorrentDownloader\obj\Debug\TorrentDownloader.exe
+j:\documents\visual studio 2015\Projects\TorrentDownloader\TorrentDownloader\obj\Debug\TorrentDownloader.pdb
