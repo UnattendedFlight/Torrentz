@@ -21,6 +21,7 @@ Then you can easily choose wich one to download.
 
 v1.0
 - Initial release.
+
 ## Credits
 
 The Node.js team
